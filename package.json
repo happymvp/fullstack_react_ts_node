@@ -1,0 +1,21 @@
+{
+  "name": "speakuptestapp",
+  "version": "1.0.0",
+  "description": "Test application made by Pavlo Lehkyi",
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=service",
+    "lint": "npm run lint --workspace=frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "service"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
